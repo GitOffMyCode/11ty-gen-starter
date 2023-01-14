@@ -1,4 +1,1 @@
-# Gen's recipes
-
-
-## Built with Eleventy
+# Eleventy starter by Gen
