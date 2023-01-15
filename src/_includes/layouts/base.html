@@ -2,13 +2,10 @@
 <html lang="en">
   <head>
     {% include "basehead.html" %}
+    {% block head %}{% endblock %}
   </head>
 
   <body>
-    {% include "partials/header.html" %}
-
     <main>{{ content | safe }}</main>
-
-    {% block head %} {% endblock %} {% include "partials/footer.html" %}
   </body>
 </html>
