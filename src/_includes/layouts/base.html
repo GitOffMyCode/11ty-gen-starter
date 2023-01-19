@@ -6,6 +6,10 @@
   </head>
 
   <body>
-    <main>{{ content | safe }}</main>
+    <main>
+      {% block content %}
+        {{ content | safe }}
+      {% endblock %}
+    </main>
   </body>
 </html>

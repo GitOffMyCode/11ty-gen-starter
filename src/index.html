@@ -1,10 +1,27 @@
 ---
-title: Eleventy Crash Course
+title: Gen's eleventy starter
 layout: layouts/home.html
 ---
 
 <h1>{{ title }}</h1>
-<p>Welcome!</p>
-<a href="/contact">Contact me</a>
 
-<img src="/assets/images/kitty.jpg" alt="A cute fluffy kitten"/>
+<div class="card__container">
+    {% Card title = "About",
+    content = "find out all about me",
+    link = "/about",
+    linkText = "Go to about" %}
+</div>
+
+<div class="card__container">
+    {% Card title = "Blog",
+    content = "Read some interesting blog articles",
+    link = "/blog",
+    linkText = "Go to blog" %}
+</div>
+
+<div class="card__container">
+    {% Card title = "Contact",
+    content = "say boo!",
+    link = "/contact",
+    linkText = "Go to contact" %}
+</div>
