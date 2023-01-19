@@ -1,11 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    {% include "basehead.html" %}
+    {% include "layouts/basehead.html" %}
     {% block head %}{% endblock %}
   </head>
 
   <body>
+    {% include "layouts/header.html" %}
     <main>
       {% block content %}
         {{ content | safe }}

@@ -1,3 +1,7 @@
+body {
+  background-color: greenyellow;
+}
+
 .post__content {
   max-width: 500px;
 }

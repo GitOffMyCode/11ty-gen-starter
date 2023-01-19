@@ -146,3 +146,19 @@ a:hover {
   padding: 0;
   border-radius: 1rem;
 }
+
+nav {
+  margin-top: 1rem;
+}
+
+nav li {
+  display: inline;
+  border: 1px solid var(--accent);
+  border-radius: 1rem;
+  padding: 1rem;
+  margin-right: 1rem;
+}
+
+nav a {
+  text-decoration: none;
+}
