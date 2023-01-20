@@ -1,5 +1,11 @@
+@import url("./global.css");
+
 body {
-  background-color: rgb(216, 255, 133);
+  background-color: var(--blog-bg);
+}
+
+h1 {
+  color: white;
 }
 
 .post__content {
