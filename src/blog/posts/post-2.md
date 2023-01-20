@@ -2,7 +2,8 @@
 layout: layouts/post.html
 title: Kittens are cute
 description: This is an example blog post
-date: 2022-01-16
+date: 2022-01-22
+linkText: hello again!
 author: Ada Heald
 tags:
   - Tutorials

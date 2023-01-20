@@ -1,15 +1,17 @@
 const eleventyNavigationPlugin = require("@11ty/eleventy-navigation");
-const Card = require("./src/_includes/components/Card");
+const { DateTime } = require("luxon");
 
 module.exports = function (eleventyConfig) {
+  eleventyConfig.addFilter("asPostDate", (dateObj) => {
+    return DateTime.fromJSDate(dateObj).toLocaleString(DateTime.DATE_MED);
+  });
+
   eleventyConfig.addPlugin(eleventyNavigationPlugin);
 
   eleventyConfig.addPassthroughCopy("src/assets/");
   eleventyConfig.addPassthroughCopy("src/css/");
 
   eleventyConfig.addWatchTarget("src/css/");
-
-  eleventyConfig.addShortcode("Card", Card);
 
   eleventyConfig.addCollection("posts", function (collectionApi) {
     return collectionApi.getFilteredByGlob("src/blog/posts/**/*.md");

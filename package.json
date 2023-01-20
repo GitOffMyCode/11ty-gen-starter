@@ -12,9 +12,7 @@
   "license": "ISC",
   "devDependencies": {
     "@11ty/eleventy": "^1.0.2",
-    "@11ty/eleventy-navigation": "^0.3.5"
-  },
-  "dependencies": {
-    "common-tags": "^1.8.2"
+    "@11ty/eleventy-navigation": "^0.3.5",
+    "luxon": "^3.2.1"
   }
 }

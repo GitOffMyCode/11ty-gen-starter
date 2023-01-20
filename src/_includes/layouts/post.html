@@ -5,7 +5,7 @@
         <h1>{{title}}</h1>
         <p>Author: {{ author }}</p>
         <p>
-            <time>Posted: {{ date }}</time>
+            <time>Posted: {{ date | asPostDate }}</time>
         </p>
         <ul>
             {% for tag in tags %}

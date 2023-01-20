@@ -3,6 +3,7 @@ layout: layouts/post.html
 title: Frog facts
 description: Do you know what frogs eat?
 date: 2022-01-16
+linkText: hello
 author: Gen Heald
 tags:
   - Tutorials
