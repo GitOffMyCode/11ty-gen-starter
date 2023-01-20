@@ -1,14 +1,14 @@
 {
-  "name": "11ty-recipes",
+  "name": "11ty-starter",
   "version": "1.0.0",
-  "description": "",
+  "description": "A very basic blog template built using Eleventy.",
   "main": "index.js",
   "scripts": {
     "start": "eleventy --serve",
     "build": "eleventy"
   },
   "keywords": [],
-  "author": "",
+  "author": "Gen Heald",
   "license": "ISC",
   "devDependencies": {
     "@11ty/eleventy": "^1.0.2"
