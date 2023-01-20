@@ -12,7 +12,7 @@
 
   --bg: #f4eff3;
   --header-bg: #fff;
-  --blog-bg: rgb(221, 178, 186);
+  --butterflycollection-bg: rgb(221, 178, 186);
   --text: #222;
   --border: #b4acb7;
   --link: #330dda;
@@ -109,9 +109,9 @@ main li {
   padding-bottom: 0.5rem;
 }
 
-/* - - - - - - - - blog card styling - - - - - - - - */
+/* - - - - - - - - butterflycollection card styling - - - - - - - - */
 
-.blog-card {
+.butterflycollection-card {
   background-color: rgb(255, 255, 255);
   display: flex;
   flex-direction: column;

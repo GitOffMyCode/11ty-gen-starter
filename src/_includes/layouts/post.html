@@ -1,4 +1,4 @@
-{% extends "layouts/blog.html" %}
+{% extends "layouts/butterflycollection.html" %}
 
 {% block content %}
     <article class="post__content">
@@ -10,7 +10,7 @@
         <ul>
             {% for tag in tags %}
                 <li>
-                    <a href="/blog/tag/{{ tag | slugify }}">{{ tag }}</a>
+                    <a href="/butterflycollection/tag/{{ tag | slugify }}">{{ tag }}</a>
                 </li>
             {% endfor %}
         </ul>

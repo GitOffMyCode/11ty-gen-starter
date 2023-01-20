@@ -1,5 +1,5 @@
 --- 
-layout: layouts/blog.html
+layout: layouts/butterflycollection.html
 title: Butterfly Collection
 eleventyNavigation:
   key: Butterflies
@@ -9,7 +9,7 @@ eleventyNavigation:
 <h1>{{ title }}</h1>
 
 {% for post in collections.posts %}
-  <article class="blog-card">
+  <article class="butterflycollection-card">
     <h2>{{ post.data.title }}</h2>
     <p>{{ post.data.date | asPostDate  }}</p>
     <p>{{ post.data.description }}</p>

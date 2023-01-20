@@ -1,13 +1,9 @@
 @import url("./global.css");
 
 body {
-  background-color: var(--blog-bg);
+  background-color: var(--butterflycollection-bg);
 }
 
 h1 {
   color: white;
-}
-
-.post__content {
-  max-width: 500px;
 }

@@ -1,7 +1,7 @@
 ---
 layout: layouts/post.html
 title: Orange tip
-description: This is an example blog post
+description: This is an example butterflycollection post
 date: 2022-01-22
 author: Ada Heald
 tags:
