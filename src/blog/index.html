@@ -7,8 +7,13 @@ title: Animal blog
 
 <ul>
     {% for post in collections.posts %}
-        <li>
-            <a href="{{ post.url }}">{{ post.data.title }}</a>
-        </li>
+
+        <div class="card__container">
+            {% Card title = post.data.title,
+            content = post.data.title,
+            link = post.url,
+            linkText = "Read more..." %}
+        </div>
+
     {% endfor %}
 </ul>

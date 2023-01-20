@@ -1,27 +1,9 @@
 ---
 title: Gen's eleventy starter
-layout: layouts/index.html
+layout: layouts/base.html
 ---
 
 <h1>{{ title }}</h1>
 
-<div class="card__container">
-    {% Card title = "About",
-    content = "find out all about me",
-    link = "/about",
-    linkText = "Go to about" %}
-</div>
+<h2>Hello</h2>
 
-<div class="card__container">
-    {% Card title = "Blog",
-    content = "Read some interesting blog articles",
-    link = "/blog",
-    linkText = "Go to blog" %}
-</div>
-
-<div class="card__container">
-    {% Card title = "Contact",
-    content = "say boo!",
-    link = "/contact",
-    linkText = "Go to contact" %}
-</div>
