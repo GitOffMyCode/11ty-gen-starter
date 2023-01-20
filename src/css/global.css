@@ -1,6 +1,6 @@
 @import url("./reset.css");
 
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;700&display=swap");
 
 :root {
   --sans-font: "Poppins", -apple-system, BlinkMacSystemFont, "Avenir Next",
@@ -8,7 +8,7 @@
     "Helvetica Neue", sans-serif;
   --mono-font: Consolas, Menlo, Monaco, "Andale Mono", "Ubuntu Mono", monospace;
   --light: 300;
-  --medium: 500;
+  --bold: 700;
 
   --bg: #f4eff3;
   --header-bg: #fff;
@@ -17,7 +17,7 @@
   --link: #330dda;
 }
 
-/* - - - - - - - - layout - - - - - - - - */
+/* - - - - - - - - layout & nav - - - - - - - - */
 
 main {
   display: grid;
@@ -36,18 +36,26 @@ header {
   color: var(--text);
   margin: 0;
 }
-
 header > * {
   grid-column: 2;
 }
 
+nav {
+  list-style: none;
+}
+.nav-inactive {
+  display: inline-block;
+  margin-right: 1em;
+}
+.nav-inactive a[href]:not(:hover) {
+  text-decoration: none;
+}
+.nav-active {
+  font-weight: var(--bold);
+  text-decoration: underline;
+}
 nav ul {
   padding-left: 0;
-}
-
-header nav li {
-  display: inline;
-  margin-right: 1rem;
 }
 
 /* - - - - - - - - typography - - - - - - - - */
@@ -72,12 +80,10 @@ h2 {
   overflow-wrap: break-word;
   line-height: 1.1;
 }
-
 h1 {
   font-size: 3rem;
   margin: 3rem 0 2rem 0;
 }
-
 h2 {
   font-size: 2rem;
   margin: 2rem 0 1.6rem 0;

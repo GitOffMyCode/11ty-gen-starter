@@ -1,6 +1,9 @@
+const eleventyNavigationPlugin = require("@11ty/eleventy-navigation");
 const Card = require("./src/_includes/components/Card");
 
 module.exports = function (eleventyConfig) {
+  eleventyConfig.addPlugin(eleventyNavigationPlugin);
+
   eleventyConfig.addPassthroughCopy("src/assets/");
   eleventyConfig.addPassthroughCopy("src/css/");
 
