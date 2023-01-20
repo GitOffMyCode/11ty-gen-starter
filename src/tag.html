@@ -4,8 +4,8 @@ pagination:
     size: 1
     alias: tag
     addAllPagesToCollections: true
-layout: layouts/post.html
-permalink: /post/tag/{{tag | slugify }}/index.html
+layout: layouts/butterflycollection.html
+permalink: /butterflycollection/tag/{{tag | slugify }}/index.html
 eleventyComputed:
     title: Posts tagged with {{ tag }}
 
