@@ -1,9 +1,33 @@
 @import url("./global.css");
 
-body {
-  background-color: var(--butterflycollection-bg);
+.butterflycollection {
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 0.5rem 0;
 }
 
-h1 {
-  color: white;
+.butterfly-details {
+  text-transform: uppercase;
+  font-size: 1rem;
+}
+
+article ul {
+  padding-left: 0;
+}
+
+article li {
+  font-size: 1.1rem;
+  display: inline;
+  list-style: none;
+}
+
+article hr {
+  border-style: dashed;
+}
+
+article img {
+  height: 250px;
+  margin-right: 1.5rem;
 }

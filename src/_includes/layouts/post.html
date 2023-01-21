@@ -2,11 +2,6 @@
 
 {% block content %}
     <article class="post__content">
-        <h1>{{title}}</h1>
-        <p>Author: {{ author }}</p>
-        <p>
-            <time>Posted: {{ date | asPostDate }}</time>
-        </p>
         <ul>
             {% for tag in tags %}
                 <li>
@@ -14,6 +9,12 @@
                 </li>
             {% endfor %}
         </ul>
+        <h1>{{title}}</h1>
+        <p>
+            <time>Last sighting: {{ sighting | asPostDate }}</time>
+        </p>
+
         {{ content | safe }}
+
     </article>
 {% endblock %}

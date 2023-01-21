@@ -12,7 +12,7 @@
 
   --bg: #f4eff3;
   --header-bg: #fff;
-  --butterflycollection-bg: rgb(221, 178, 186);
+  --butterflycollection-bg: #330dda;
   --text: #222;
   --border: #b4acb7;
   --link: #330dda;
@@ -69,6 +69,18 @@ body {
   line-height: 1.75;
 }
 
+p {
+  margin-bottom: 1.25rem;
+}
+
+li {
+  margin-bottom: 0;
+}
+
+main ul {
+  margin-top: 0;
+}
+
 a,
 a:visited {
   color: var(--link);
@@ -103,20 +115,4 @@ h2 {
   h2 {
     font-size: 1.8rem;
   }
-}
-
-main li {
-  padding-bottom: 0.5rem;
-}
-
-/* - - - - - - - - butterflycollection card styling - - - - - - - - */
-
-.butterflycollection-card {
-  background-color: rgb(255, 255, 255);
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding: 0.5rem 0;
-  margin: 0.5rem 0;
-  border-radius: 1rem;
 }

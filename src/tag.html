@@ -7,11 +7,11 @@ pagination:
 layout: layouts/butterflycollection.html
 permalink: /butterflycollection/tag/{{tag | slugify }}/index.html
 eleventyComputed:
-    title: Posts tagged with {{ tag }}
+    title: Butterflies tagged with {{ tag }}
 
 ---
 
-<h1>Posts tagged with {{ tag }}</h1>
+<h1>Butterflies tagged with {{ tag }}</h1>
 
 {% for post in collections[tag] %}
     <li>
