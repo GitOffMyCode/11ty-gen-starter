@@ -1,6 +1,6 @@
 --- 
 layout: layouts/butterflycollection.html
-title: Butterfly Sightings
+title: Butterflies
 eleventyNavigation:
   key: Butterflies
   order: 3
@@ -9,16 +9,22 @@ eleventyNavigation:
 <h1>{{ title }}</h1>
 
 {% for post in collections.posts %}
-  <article class="butterflycollection">
-    <img src="/assets/images/AdonisBlue.jpeg" alt="Adonis blue butterfly"/>
-    <div>
-      <h2>{{ post.data.title }}</h2>
-      <p class="butterfly-details">{{ post.data.latinname  }}</p>
-      <p class="butterfly-details">last sighting: {{ post.data.sighting | asPostDate  }}</p>
-      <hr/>
-      <a href="{{ post.url }}">
-        <small>More about the {{ post.data.title }} butterfly</small>
+  <article class="butterfly-card">
+    <img src="/assets/images/{{post.data.image}}" class="butterfly-card__img" alt="Adonis blue butterfly"/>
+    <div class="butterfly-card__content">
+
+      <h2 class="butterfly-card__heading">{{ post.data.title }}</h2>
+
+      <p class="butterfly-card__latin">{{ post.data.latinname  }}</p>
+
+      <p>
+        <small>{{ post.data.intro}}</small>
+      </p>
+
+      <a href="{{ post.url }}" class="butterfly-card__text">
+        More about the {{ post.data.title }} butterfly
       </a>
+
     </div>
   </article>
 {% endfor %}

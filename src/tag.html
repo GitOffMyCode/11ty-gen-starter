@@ -11,10 +11,29 @@ eleventyComputed:
 
 ---
 
-<h1>Butterflies tagged with {{ tag }}</h1>
+<h1>Butterflies</h1>
+
+<p>Butterflies tagged with {{ tag }}:</p>
 
 {% for post in collections[tag] %}
-    <li>
-        <a href="{{ post.url }}">{{ post.data.title }}</a>
-    </li>
+
+    <article class="butterfly-card">
+        <img src="/assets/images/{{post.data.image}}" class="butterfly-card__img" alt="Adonis blue butterfly"/>
+        <div class="butterfly-card__content">
+
+            <h2 class="butterfly-card__heading">{{ post.data.title }}</h2>
+
+            <p class="butterfly-card__latin">{{ post.data.latinname  }}</p>
+
+            <p>
+                <small>{{ post.data.intro}}</small>
+            </p>
+
+            <a href="{{ post.url }}" class="butterfly-card__text">
+        More about the {{ post.data.title }} butterfly
+      </a>
+
+        </div>
+    </article>
+
 {% endfor %}
