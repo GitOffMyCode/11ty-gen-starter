@@ -17,6 +17,14 @@ eleventyNavigation:
 
       <p class="butterfly-card__latin">{{ post.data.latinname }}</p>
 
+      <ul class="butterfly">
+        {% for tag in post.data.tags %}
+          <li>
+            <a class="tag-link" href="/butterflycollection/tag/{{ tag | slugify }}">{{ tag }}</a>
+          </li>
+        {% endfor %}
+      </ul>
+
       <p>
         <small>{{ post.data.intro }}</small>
       </p>
