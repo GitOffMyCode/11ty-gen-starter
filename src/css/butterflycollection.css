@@ -62,12 +62,23 @@ ul {
 }
 
 .tag-link,
-.tag-link:visited,
+.tag-link:visited {
+  color: var(--text);
+  font-size: 0.9rem;
+  border: 0.15rem solid var(--tag);
+  background-color: var(--tag);
+  padding: 0.4rem 0.8rem;
+  letter-spacing: 0.05rem;
+  border-radius: 5rem;
+  box-shadow: none;
+}
+
 .tag-link:active,
 .tag-link:hover {
   color: var(--text);
   font-size: 0.9rem;
-  background-color: var(--tag);
+  border: 0.15rem solid var(--tag);
+  background-color: white;
   padding: 0.4rem 0.8rem;
   letter-spacing: 0.05rem;
   border-radius: 5rem;
