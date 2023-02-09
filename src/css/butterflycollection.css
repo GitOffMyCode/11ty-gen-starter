@@ -107,6 +107,6 @@ ul {
   .tag-link:visited,
   .tag-link:active,
   .tag-link:hover {
-    font-size: 0.8rem;
+    font-size: 0.75rem;
   }
 }
