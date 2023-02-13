@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.html
+layout: layouts/butterfly.html
 title: Comma
 intro: The Comma is a fascinating butterfly. The scalloped edges and cryptic colouring of the wings conceal hibernating adults amongst dead leaves, while the larvae, flecked with brown and white markings, bear close resemblance to bird droppings.
 latinname: Polygonia c-album

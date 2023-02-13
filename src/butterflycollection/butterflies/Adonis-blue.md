@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.html
+layout: layouts/butterfly.html
 title: Adonis blue
 intro: This beautiful species of butterfly is one of the most characteristic of unimproved southern chalk downland, where it can be seen flying low over shortly grazed turf (typically steep, south-facing slopes).
 latinname: Polyommatus bellargus

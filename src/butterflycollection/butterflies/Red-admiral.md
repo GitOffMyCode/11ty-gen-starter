@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.html
+layout: layouts/butterfly.html
 title: Red Admiral
 intro: A large and strong-flying butterfly and common in gardens. This familiar and distinctive insect may be found anywhere in Britain and Ireland and in all habitat types.
 latinname: Vanessa atalanta

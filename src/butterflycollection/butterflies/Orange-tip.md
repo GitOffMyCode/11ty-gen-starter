@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.html
+layout: layouts/butterfly.html
 title: Orange tip
 intro: Common and widespread, this medium-sized butterfly can be found in gardens and hedgerows. The males are unmistakable; white butterflies with bright orange wingtips. The females are white with black wingtips. Both have mottled green underwings.
 latinname: Anthocharis cardamines
