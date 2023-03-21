@@ -5,6 +5,7 @@ intro: This beautiful species of butterfly is one of the most characteristic of 
 latinname: Polyommatus bellargus
 sighting: 2022-06-22
 location: Dorset
+order: 4
 image: AdonisBlue.jpeg
 imageAltText: Adonis blue butterfly
 tags:

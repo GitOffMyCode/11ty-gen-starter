@@ -5,6 +5,7 @@ intro: Common and widespread, this medium-sized butterfly can be found in garden
 latinname: Anthocharis cardamines
 sighting: 2022-05-12
 location: Rixton Claypits
+order: 2
 image: OrangeTip.jpeg
 imageAltText: Orange tip butterfly
 tags:

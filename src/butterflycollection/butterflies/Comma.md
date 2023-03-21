@@ -5,6 +5,7 @@ intro: The Comma is a fascinating butterfly. The scalloped edges and cryptic col
 latinname: Polygonia c-album
 sighting: 2022-08-29
 location: Rixton Claypits
+order: 3
 image: Comma.jpeg
 imageAltText: Comma butterfly
 tags:

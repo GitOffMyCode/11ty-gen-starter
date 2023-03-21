@@ -14,9 +14,9 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addWatchTarget("src/css/");
 
   eleventyConfig.addCollection("butterflies", function (collectionApi) {
-    return collectionApi.getFilteredByGlob(
-      "src/butterflycollection/butterflies/**/*.md"
-    );
+    return collectionApi
+      .getFilteredByGlob("src/butterflycollection/butterflies/**/*.md")
+      .sort((a, b) => b.data.order - a.data.order);
   });
 
   return {
